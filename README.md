@@ -17,7 +17,7 @@ Modifications here are minimal and are mostly aimed at making the project a bit 
 
 The build process for the standalone app and the AU plugin is very straightforward. Building the VST plugin is a bit tricky as you currently need the VST2 API and it can't be distributed.
 
-## Building The Standalone Application on Mac
+## Building (Mac)
 
 These instructions are for a Mac but can be easily adapted to Windows or Linux. In time, I'll add instruction for those platforms as well.
 
@@ -31,7 +31,7 @@ Vial makes use of the [Juce Framework](https://juce.com/). After you have unders
 
 Not going to go on about what XCode is. You get it in the App Store. It's free.
 
-### Instructions
+### Standalone App Instructions
 
 Open Projucer. In the file menu select Open.. and navigate to the [standalone folder](standalone) and select the .jucer file. It should open in Projucer. In the top of the Projucer window you should see "XCode (macOS) - builds/osx" as the selected exporter. Click the icon to the right. 
 
@@ -39,6 +39,24 @@ The project should now be open in XCode. If you are looking to build an app that
 
 
 I'll try to update this readme with more general build instructions as I have time.
+
+### Plugin (VST/AU) Instructions
+
+The current version of Vial requires the Steinberg VST2 API even to build VST3. However, that API is deprecated and one cannot distribute any plugin built with it without having signed an agreement with them back when the agreement was still available. The SDK itself is very hard to find and I cannot distribute it here you'll have to [find it yourself](https://web.archive.org/web/20181016150224if_/https://download.steinberg.net/sdk_downloads/vstsdk3610_11_06_2018_build_37.zip).
+
+If you just want to build an AU plugin you can skip the VST2 stuff.
+
+#### Install VST2 SDK
+
+Once you have obtained the SDK, extract it to e.g. /third_party/VST_SDK/VST2_SDK. The folder should have a "plugininterfaces" and "public.sdk" folder inside.
+
+#### Set Global Path for VST2 in Projucer
+
+Open the .jucer file in the [plugin](/plugin/) directory with Projucer. In the Projucer main menu select Projucer > Global Paths... In the Global Paths dialog click the ellipsis button next to the VST (Legacy) SDK field and navigate to your VST2_SDK folder.
+
+### Build in XCode
+
+Follow the above instructions for the standalone build. It's essentially the same.
 
 ## License
 The source code is licensed under the GPLv3. If you download the source or create builds you must comply with that license.
