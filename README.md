@@ -25,7 +25,7 @@ These instructions are for a Mac but can be easily adapted to Windows or Linux. 
 
 #### Projucer
 
-Vial makes use of the [Juce Framework](https://juce.com/). After you have understood what Juce is you should start by installing [Projucer](https://juce.com/discover/projucer). Projucer will come with a current stable version of Juce but all we need is the Projucer application. In fact, the Juce framework version used to build Vial is located in the [third_party](/third_party/) folder and is distributed with this codebase.
+Vial makes use of the [Juce](https://juce.com/) framework. After you have understood what Juce is you should start by installing [Projucer](https://juce.com/discover/projucer). Projucer will come with a current stable version of Juce but all we need is the Projucer application. In fact, the Juce framework version used to build Vial is located in the [third_party](/third_party/) folder and is distributed with this codebase.
 
 #### XCode
 
