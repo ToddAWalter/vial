@@ -37,9 +37,6 @@ Open Projucer. In the file menu select Open.. and navigate to the [standalone fo
 
 The project should now be open in XCode. If you are looking to build an app that you want to actually play for fun then make sure you go to Product > Scheme > Edit Scheme... You should set the Build Configuration to Release. A Debug build will sound like crap once you press more than a couple of keys.
 
-
-I'll try to update this readme with more general build instructions as I have time.
-
 ### Plugin (VST/AU) Instructions
 
 The current version of Vial requires the Steinberg VST2 API even to build VST3. However, that API is deprecated and one cannot distribute any plugin built with it without having signed an agreement with them back when the agreement was still available. The SDK itself is very hard to find and I cannot distribute it here you'll have to [find it yourself](https://web.archive.org/web/20181016150224if_/https://download.steinberg.net/sdk_downloads/vstsdk3610_11_06_2018_build_37.zip).
