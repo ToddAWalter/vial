@@ -36,3 +36,4 @@ Release
 **/builds
 **/JuceLibraryCode
 .vscode
+VST2_SDK
