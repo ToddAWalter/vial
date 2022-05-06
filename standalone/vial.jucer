@@ -42,11 +42,11 @@
       <FILE id="QqS7z3" name="phaser.svg" compile="0" resource="1" file="../icons/phaser.svg"/>
       <FILE id="Rq21nY" name="reverb.svg" compile="0" resource="1" file="../icons/reverb.svg"/>
       <FILE id="e7nm1m" name="shuffle.svg" compile="0" resource="1" file="../icons/shuffle.svg"/>
-      <FILE id="FG9w1L" name="vital_ring.svg" compile="0" resource="1" file="../icons/vital_ring.svg"/>
-      <FILE id="lNll87" name="vital_v.svg" compile="0" resource="1" file="../icons/vital_v.svg"/>
-      <FILE id="rJ2SPM" name="vital_word.svg" compile="0" resource="1" file="../icons/vital_word.svg"/>
-      <FILE id="lGBaAE" name="vital_word_ring.svg" compile="0" resource="1"
-            file="../icons/vital_word_ring.svg"/>
+      <FILE id="FG9w1L" name="vial_ring.svg" compile="0" resource="1" file="../icons/vial_ring.svg"/>
+      <FILE id="lNll87" name="vial_v.svg" compile="0" resource="1" file="../icons/vial_v.svg"/>
+      <FILE id="rJ2SPM" name="vial_word.svg" compile="0" resource="1" file="../icons/vial_word.svg"/>
+      <FILE id="lGBaAE" name="vial_word_ring.svg" compile="0" resource="1"
+            file="../icons/vial_word_ring.svg"/>
     </GROUP>
     <GROUP id="{5E20F1A0-5E75-7060-2F6C-FA57FB1890B9}" name="src">
       <GROUP id="{24238426-E22D-9B0B-53E8-F1FE2E36A406}" name="common">
@@ -299,10 +299,6 @@
                 file="../src/interface/editor_sections/distortion_section.cpp"/>
           <FILE id="gZRGRJ" name="distortion_section.h" compile="0" resource="0"
                 file="../src/interface/editor_sections/distortion_section.h"/>
-          <FILE id="b9CH5q" name="download_section.cpp" compile="0" resource="0"
-                file="../src/interface/editor_sections/download_section.cpp"/>
-          <FILE id="OGnt9B" name="download_section.h" compile="0" resource="0"
-                file="../src/interface/editor_sections/download_section.h"/>
           <FILE id="AKNa8e" name="effects_interface.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/effects_interface.cpp"/>
           <FILE id="th7wVQ" name="effects_interface.h" compile="0" resource="0"
@@ -410,10 +406,6 @@
                 file="../src/interface/editor_sections/synthesis_interface.cpp"/>
           <FILE id="dhMbd3" name="synthesis_interface.h" compile="0" resource="0"
                 file="../src/interface/editor_sections/synthesis_interface.h"/>
-          <FILE id="wecfTg" name="update_check_section.cpp" compile="0" resource="0"
-                file="../src/interface/editor_sections/update_check_section.cpp"/>
-          <FILE id="pfKMu5" name="update_check_section.h" compile="0" resource="0"
-                file="../src/interface/editor_sections/update_check_section.h"/>
           <FILE id="iZajsO" name="voice_section.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/voice_section.cpp"/>
           <FILE id="UUeOvV" name="voice_section.h" compile="0" resource="0" file="../src/interface/editor_sections/voice_section.h"/>

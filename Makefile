@@ -123,7 +123,7 @@ clean:
 install_standalone: standalone install_icons
 	install -d $(BIN) $(MAN) $(CHANGES) $(DESKTOP)
 	install standalone/builds/linux/build/$(PROGRAM) $(BIN)
-	install -m644 standalone/vital.desktop $(DESKTOP)/vital.desktop
+	install -m644 standalone/vial.desktop $(DESKTOP)/vial.desktop
 
 install_lv2: lv2
 	install -d $(LV2)
