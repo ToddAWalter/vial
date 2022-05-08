@@ -11,8 +11,8 @@
       <FILE id="izTGhX" name="Pythagorean.scl" compile="0" resource="1" file="../tunings/Pythagorean.scl"/>
     </GROUP>
     <GROUP id="{F9396290-DE03-305A-7B02-8F0D1833F92B}" name="skins">
-      <FILE id="X3TgJk" name="default.vitalskin" compile="0" resource="1"
-            file="../default.vitalskin"/>
+      <FILE id="X3TgJk" name="default.vialskin" compile="0" resource="1"
+            file="../default.vialskin"/>
     </GROUP>
     <GROUP id="{E196CA17-7FAE-9490-94C8-9030B5F1046D}" name="fonts">
       <FILE id="FShH5H" name="DroidSansMono.ttf" compile="0" resource="1"

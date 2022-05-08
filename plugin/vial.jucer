@@ -20,8 +20,8 @@
       <FILE id="PR37HQ" name="Pythagorean.scl" compile="0" resource="1" file="../tunings/Pythagorean.scl"/>
     </GROUP>
     <GROUP id="{600DADF0-4925-DDC4-81CF-48B3BAC03E18}" name="skins">
-      <FILE id="khetM5" name="default.vitalskin" compile="0" resource="1"
-            file="../default.vitalskin"/>
+      <FILE id="khetM5" name="default.vialskin" compile="0" resource="1"
+            file="../default.vialskin"/>
     </GROUP>
     <GROUP id="{1A78DEC9-745B-17A2-254E-9D5E30BC1096}" name="fonts">
       <FILE id="qUo4es" name="DroidSansMono.ttf" compile="0" resource="1"

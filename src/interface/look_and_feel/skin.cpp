@@ -209,7 +209,7 @@ void Skin::clearSkin() {
 }
 
 void Skin::loadDefaultSkin() {
-  MemoryInputStream skin((const void*)BinaryData::default_vitalskin, BinaryData::default_vitalskinSize, false);
+  MemoryInputStream skin((const void*)BinaryData::default_vialskin, BinaryData::default_vialskinSize, false);
   std::string skin_string = skin.readEntireStreamAsString().toStdString();
 
   try {

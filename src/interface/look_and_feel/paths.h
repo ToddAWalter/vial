@@ -30,14 +30,14 @@ class Paths {
       return drawable->getOutlineAsPath();
     }
 
-    static Path vitalRing() {
+    static Path vialRing() {
       Path path = fromSvgData((const void*)BinaryData::vial_ring_svg, BinaryData::vial_ring_svgSize);
       path.addLineSegment(Line<float>(0.0f, 0.0f, 0.0f, 0.0f), 0.2f);
       path.addLineSegment(Line<float>(kLogoWidth, kLogoWidth, kLogoWidth, kLogoWidth), 0.2f);
       return path;
     }
 
-    static Path vitalV() {
+    static Path vialV() {
       Path path = fromSvgData((const void*)BinaryData::vial_v_svg, BinaryData::vial_ring_svgSize);
       path.addLineSegment(Line<float>(0.0f, 0.0f, 0.0f, 0.0f), 0.2f);
       path.addLineSegment(Line<float>(kLogoWidth, kLogoWidth, kLogoWidth, kLogoWidth), 0.2f);
