@@ -32,7 +32,11 @@ Not going to go on about what XCode is. You get it in the App Store. It's free.
 
 ### Standalone App Instructions
 
+#### Generate project in Projuce
+
 Open Projucer. In the file menu select Open.. and navigate to the [standalone folder](standalone) and select the vial.jucer file. It should open in Projucer. In the top of the Projucer window you should see "XCode (macOS) - builds/osx" as the selected exporter. Click the icon to the right. 
+
+#### Build project in XCode
 
 The project should now be open in XCode. If you are looking to build an app that you want to actually play for fun then make sure you go to Product > Scheme > Edit Scheme... You should set the Build Configuration to Release. A Debug build will sound like crap once you press more than a couple of keys.
 
@@ -50,9 +54,7 @@ Once you have obtained the SDK, extract it to e.g. /third_party/VST_SDK/VST2_SDK
 
 Open the vial.jucer file in the [plugin](/plugin/) directory with Projucer. In the Projucer main menu select Projucer > Global Paths... In the Global Paths dialog click the ellipsis button next to the VST (Legacy) SDK field and navigate to your VST2_SDK folder.
 
-### Build in XCode
-
-Follow the above instructions for the standalone build. It's essentially the same.
+Follow the instructions for the standalone build. It's essentially the same.
 
 ## License
 The source code is licensed under the GPLv3. If you download the source or create builds you must comply with that license.
